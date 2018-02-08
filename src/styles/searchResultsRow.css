@@ -1,0 +1,19 @@
+.search_result_row {
+  border-bottom: 1px solid #909090;
+  padding: 20px 0;
+}
+
+.search_result_row img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.search_result_row .owner_info {
+  flex-basis: 40%;
+}
+
+.search_result_row .repo_details {
+  text-align: left;
+  margin: auto 0;
+  flex-basis: 60%;
+}

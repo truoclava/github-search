@@ -1,0 +1,11 @@
+.paginate {
+
+}
+
+.paginate .arrow {
+  cursor: pointer;
+}
+
+.paginate .pages {
+  padding: 0 10px;
+}
