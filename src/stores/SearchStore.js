@@ -50,7 +50,7 @@ class SearchStore {
 
   indexSuccess(response) {
     let data = response.data
-    let totalPages = this.getTotalPages(response.headers.link);
+    let totalPages = response.headers.link ? this.getTotalPages(response.headers.link) : 1;
     this.setState({results: data.items, resultsLoading: false, totalCount: data.total_count, totalPages: totalPages, linkHeader: response.headers.link});
   }
 
